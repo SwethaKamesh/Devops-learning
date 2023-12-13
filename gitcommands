@@ -25,3 +25,7 @@ To send multiple files
 To send all the files present in working directory to staging area
 	- git add .
 	"." represents present working directory
+To Remove files from staging area and bring back them to untracked section
+	- git rm --cached filename
+		or
+	- git reset filename
